@@ -1,0 +1,89 @@
+.AboutMe{
+  height: 115vh;
+}
+
+/*4K and more */
+
+@media (2560px < width) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}
+
+/* L-laptops */
+
+@media (1440px < width <= 2561px) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .letter-spacing {
+    letter-spacing: 10px;
+  }
+  .MyDescription {
+    text-shadow: 3px 3px #af9d89;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Large Laptop */
+
+@media (1024px< width <=1441px) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  .letter-spacing {
+    letter-spacing: 10px;
+  }
+  .MyDescription {
+    text-shadow: 3px 3px #af9d89;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Laptop */
+
+@media (768px< width <=1025px) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablet */
+
+@media (425px < width <=769px) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}
+
+/* Phones */
+
+@media (0px<= width <= 426px) {
+  .AboutMe-paragraph {
+    text-align: center;
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    font-size: 2rem;
+  }
+}

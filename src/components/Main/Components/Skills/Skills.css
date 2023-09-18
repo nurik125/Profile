@@ -1,0 +1,33 @@
+/*4K and more */
+
+@media (2560px < width) {
+}
+
+/* L-laptops */
+
+@media (1440px < width <= 2561px) {
+  .Skills {
+    position: relative;
+    font-family: Page-default-font;
+  }
+}
+
+/* Large Laptop */
+
+@media (1024px< width <=1441px) {
+}
+
+/* Laptop */
+
+@media (768px< width <=1025px) {
+}
+
+/* Tablet */
+
+@media (425px < width <=769px) {
+}
+
+/* Phones */
+
+@media (0px<= width <= 426px) {
+}

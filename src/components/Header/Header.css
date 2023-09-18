@@ -1,0 +1,57 @@
+.Header {
+  height: 10vh;
+  width: 100%;
+
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.Header-components {
+  width: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*4K and more */
+
+@media (2560px < width) {
+  .Header-components {
+    font-size: 2rem;
+  }
+}
+
+/* L-laptops */
+
+@media (1440px < width <= 2561px) {
+  .Header-components {
+    font-size: 1rem;
+  }
+}
+/* Tablet */
+
+@media (425px < width <=769px) {
+  .Header-components {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Phones */
+
+@media (0px<= width <= 426px) {
+  .Header-components {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

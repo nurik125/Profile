@@ -1,0 +1,80 @@
+@media (width > 426px) {
+  .Header-bar {
+    display: none;
+  }
+}
+
+@media (0px<= width <= 426px) {
+  .Header-phoneBar {
+    cursor: pointer;
+    margin-left: 2vh;
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .Header-barNav {
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .Header-barCheck {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    width: 9vh;
+    height: 5vh;
+    top: 2vh;
+    opacity: 0;
+  }
+  @keyframes barAnim {
+    0% {
+      right: 0;
+    }
+
+    10%,
+    20%,
+    30% {
+      background-color: transparent;
+    }
+
+    100% {
+      right: 10%;
+      opacity: 1;
+      background-color: transparent;
+    }
+  }
+  .Header-barCheck:checked + .Header-barNav {
+    animation: 1s barAnim forwards;
+  }
+  .Header-barNav a {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  /* Large mobile */
+  @media (376px < width <= 426px) {
+    .Header-barNav a {
+      font-size: medium;
+    }
+  }
+  /* Medium mobile */
+
+  @media (321px < width <= 376px) {
+    .Header-barNav a {
+      font-size: small;
+    }
+  }
+
+  /* Small mobile */
+  @media (width <= 321px) {
+    .Header-barNav a {
+      font-size: x-small;
+    }
+  }
+}

@@ -1,0 +1,293 @@
+.Greeting {
+  font-family: Page-greeting-font;
+  height: 110vh;
+}
+
+.Greeting-Hi {
+  display: flex;
+  flex-direction: column;
+}
+.Main-Pointer:hover {
+  transform: rotate(-22.5deg);
+}
+.Greeting-name {
+  margin-left: 10%;
+}
+
+.Greeting-d {
+  margin-left: 20%;
+}
+
+.greeting-emoji {
+  background-color: transparent;
+  animation: greetingEmoji 3s 1;
+  animation-delay: 1.2s;
+  transform-origin: bottom;
+}
+
+@keyframes greetingEmoji {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+}
+/*4K and more */
+
+@media (2560px < width) {
+  .Main-myPfp {
+    top: 25vh;
+    position: absolute;
+    left: 0;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 20%;
+  }
+  .Main-Pointer {
+    position: absolute;
+    z-index: 1;
+    top: 42.5vh;
+    left: -1vh;
+    background-color: transparent;
+    transition: 0.3s all;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+/* L-laptops */
+
+@media (1440px < width <= 2561px) {
+  .Main-myPfp {
+    height: 50vh;
+    width: 50vh;
+
+    border-radius: 10%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .Main-Pointer {
+    position: absolute;
+    z-index: 1;
+    top: 40vh;
+    right: 40vh;
+    background-color: transparent;
+    transition: 0.3s all;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+/* Large Laptop */
+
+@media (1389px < width <=1441px) {
+  .Main-myPfp {
+    height: 50vh;
+    width: 50vh;
+
+    border-radius: 10%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .Main-Pointer {
+    position: absolute;
+    z-index: 1;
+    top: 40vh;
+    right: 40vh;
+    background-color: transparent;
+    transition: 0.3s all;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+/* Laptop */
+
+@media (1269px < width <=1389px) {
+  .Main-myPfp {
+    height: 40vh;
+    width: 40vh;
+
+    border-radius: 10%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .Main-Pointer {
+    position: absolute;
+    z-index: 5;
+    top: 30vh;
+    right: 30vh;
+    background-color: transparent;
+    transition: 0.3s all;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+/* Tablet */
+
+@media (1114px < width <=1269px) {
+  .Main-myPfp {
+    height: 25vh;
+    width: 25vh;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-radius: 20%;
+  }
+  .Main-Pointer {
+    z-index: 1;
+
+    position: absolute;
+    top: 15vh;
+    right: 15vh;
+
+    background-color: transparent;
+    transition: 0.3s all;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+@media (866px < width <= 1114px) {
+  .Main-myPfp {
+    height: 20vh;
+    width: 20vh;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-radius: 20%;
+  }
+  .Main-Pointer {
+    display: none;
+  }
+
+  .greeting-emoji {
+    position: absolute;
+    top: -2vh;
+    background-color: transparent;
+    animation: greetingEmoji 3s 1;
+    animation-delay: 1s;
+    transform-origin: right bottom;
+  }
+}
+
+@media (787px < width <= 866px) {
+  .Main-myPfp {
+    display: none;
+  }
+  .Main-Pointer {
+    display: none;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+@media (638px < width <= 787px) {
+  .Main-myPfp {
+    display: none;
+  }
+  .Main-Pointer {
+    display: none;
+  }
+
+  .Greeting {
+    font-size: 4rem;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+@media (493px < width <= 638px) {
+  .Main-myPfp {
+    display: none;
+  }
+  .Main-Pointer {
+    display: none;
+  }
+
+  .Greeting {
+    font-size: 3rem;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -2vh;
+  }
+}
+
+/* Phones */
+
+@media (0px<= width <= 493px) {
+  .Main-myPfp {
+    display: none;
+  }
+  .Main-Pointer {
+    display: none;
+  }
+  .Greeting {
+    font-size: 3rem;
+  }
+  .Greeting-Hi {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .Greeting-name,
+  .Greeting-d,
+  .Greeting-Hi {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .greeting-emoji-pos {
+    position: absolute;
+    top: -1vh;
+    left: 3%;
+  }
+
+  @media (width < 430px) {
+    .greeting-emoji {
+      display: none;
+    }
+  }
+}
