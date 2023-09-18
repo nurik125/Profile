@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Profile/static/css/main.c48a8238.css",
+    "main.js": "/Profile/static/js/main.86cb4c08.js",
+    "static/media/Poppins-MediumItalic.ttf": "/Profile/static/media/Poppins-MediumItalic.89e040c6a64d18f620dc.ttf",
+    "static/media/Flokison-WyEXv.otf": "/Profile/static/media/Flokison-WyEXv.6ff0f7ccfa2bcbae3d34.otf",
+    "static/media/HungryDreamy-eZa2g.ttf": "/Profile/static/media/HungryDreamy-eZa2g.033ce5c97f4e4715613c.ttf",
+    "index.html": "/Profile/index.html",
+    "main.c48a8238.css.map": "/Profile/static/css/main.c48a8238.css.map",
+    "main.86cb4c08.js.map": "/Profile/static/js/main.86cb4c08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48a8238.css",
+    "static/js/main.86cb4c08.js"
+  ]
+}
