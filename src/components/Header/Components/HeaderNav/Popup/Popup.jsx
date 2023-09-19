@@ -21,6 +21,7 @@ const Popup = () => {
                   rel="noopener noreferrer"
                 >
                   <img
+                    loading="lazy"
                     className="Social-media-icon WhatsApp"
                     src={require("../../../../../WhatsApp.png")}
                     alt="WhatsApp-Num"

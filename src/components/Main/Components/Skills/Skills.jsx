@@ -4,16 +4,19 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className="Skills">
+      <div className="empty-block"></div>
       <div id="Skills">My honest reaction: </div>
       <div>
         <img
-          className="gun-image"
+          loading="lazy"
+          className="gun-image lazy"
           src={require("../../../../FirstShot.jpg")}
           alt="gun"
         />
         <img
-          className="human"
-          src="https://th.bing.com/th/id/OIP.Q7iL_BN8uiZFc-U18yWhkQHaHa?pid=ImgDet&rs=1"
+          loading="lazy"
+          className="human lazy"
+          src={require("../../../../HumanRun.png")}
           alt="human"
         />
       </div>

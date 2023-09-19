@@ -48,8 +48,7 @@
 
 @media (0px<= width <= 426px) {
   .Header-components {
-    width: 100%;
-
+    width: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,3 +1,8 @@
+.empty-block{
+  display: block;
+  height: 20vh;
+}
+
 /*4K and more */
 
 @media (2560px < width) {
@@ -112,15 +117,15 @@
   }
   .gun-image {
     border-radius: 10px;
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
   }
 
   .human {
     position: absolute;
     z-index: 0;
     right: 0;
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
   }
 }
