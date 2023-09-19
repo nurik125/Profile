@@ -1,7 +1,6 @@
 .AboutMe {
   height: 115vh;
 }
-
 /*4K and more */
 
 @media (2560px < width) {
@@ -10,6 +9,12 @@
     display: flex;
     justify-content: center;
     font-size: 2rem;
+  }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
   }
 }
 
@@ -36,6 +41,12 @@
     display: flex;
     flex-direction: column;
   }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
+  }
 }
 
 /* Large Laptop */
@@ -56,6 +67,12 @@
     display: flex;
     flex-direction: column;
   }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
+  }
 }
 
 /* Laptop */
@@ -67,6 +84,12 @@
     margin-top: 10vh;
     justify-content: center;
     font-size: 1.8rem;
+  }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
   }
 }
 
@@ -80,6 +103,12 @@
     justify-content: center;
     font-size: 2rem;
   }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -500px; /*same height as header*/
+    visibility: hidden;
+  }
 }
 
 /* Phones */
@@ -91,5 +120,11 @@
     margin-top: 10vh;
     justify-content: center;
     font-size: 2rem;
+  }
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
   }
 }

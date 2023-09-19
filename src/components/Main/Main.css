@@ -31,8 +31,6 @@
 
 @media (0px<= width <= 426px) {
   .Main-greeting {
-    position: absolute;
-    z-index: -1;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
