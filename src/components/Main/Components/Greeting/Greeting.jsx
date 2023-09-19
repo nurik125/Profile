@@ -13,7 +13,7 @@ const Greeting = () => {
         <span className="Greeting-d"> and this is my profile</span>
       </div>
       <span className="Main-Pointer">🫵</span>
-      <img className="Main-myPfp" src="/Images/JustSelfy.jpg" alt="pfp" />
+      <img className="Main-myPfp" src={require("../../../../JustSelfy.jpg")} alt="pfp" />
     </div> ///Images&Vid/JustSelfy.jpg
   );
 };

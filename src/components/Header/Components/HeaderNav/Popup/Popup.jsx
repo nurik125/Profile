@@ -22,7 +22,7 @@ const Popup = () => {
                 >
                   <img
                     className="Social-media-icon WhatsApp"
-                    src="Images&Vid/WhatsApp.png"
+                    src={require("../../../../../WhatsApp.png")}
                     alt="WhatsApp-Num"
                   />
                 </a>

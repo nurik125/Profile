@@ -1,11 +1,10 @@
 import React from "react";
-import "./Skills.css"
+import "./Skills.css";
 
 const Skills = () => {
   return (
     <div className="Skills">
-      <div>My experience: </div>
-      
+      <div id="Skills">My experience: </div>
     </div>
   );
 };

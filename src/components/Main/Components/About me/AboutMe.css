@@ -1,4 +1,4 @@
-.AboutMe{
+.AboutMe {
   height: 115vh;
 }
 
@@ -16,6 +16,12 @@
 /* L-laptops */
 
 @media (1440px < width <= 2561px) {
+  .anchor {
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -410px; /*same height as header*/
+    visibility: hidden;
+  }
   .AboutMe-paragraph {
     text-align: center;
     display: flex;
