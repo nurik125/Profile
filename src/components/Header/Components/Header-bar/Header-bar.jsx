@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header-bar.css";
-import Popup from "../HeaderNav/Popup/Popup";
 
 const HeaderBar = () => {
   return (
@@ -25,8 +24,7 @@ const HeaderBar = () => {
       <div className="Header-barNav">
         <a href="#About">About me</a>
         <a href="#Skills">Skills</a>
-        <a href="#Contact">Contact me</a>
-        <Popup />
+        <a href="#Contact1">Contact me</a>
       </div>
     </div>
   );

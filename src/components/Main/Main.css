@@ -25,6 +25,9 @@
   .Main-greeting {
     font-size: 5rem;
   }
+  .Contact-footer {
+    display: none;
+  }
 }
 
 /* Phones */
@@ -32,5 +35,8 @@
 @media (0px<= width <= 426px) {
   .Main-greeting {
     font-size: 2rem;
+  }
+  .Contact-footer {
+    font-size: 0.7rem;
   }
 }

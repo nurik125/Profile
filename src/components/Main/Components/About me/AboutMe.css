@@ -1,6 +1,9 @@
 .AboutMe {
   height: 115vh;
 }
+.MyDescription{
+  font-size: 1rem;
+}
 /*4K and more */
 
 @media (2560px < width) {
