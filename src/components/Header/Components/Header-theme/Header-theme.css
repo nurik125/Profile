@@ -1,6 +1,23 @@
 .Header-theme {
+  background-color: transparent;
   cursor: pointer;
   width: 5vh;
   height: 5vh;
 }
 
+.sun {
+  position: absolute;
+  z-index: 1;
+  width: 5vh;
+  height: 5vh;
+}
+
+.moon {
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+}
+
+.Visibility {
+  display: none;
+}
