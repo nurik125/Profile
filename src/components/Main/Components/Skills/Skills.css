@@ -3,13 +3,22 @@
   height: 20vh;
 }
 
+.human {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+  background-color: transparent;
+}
+
+.Skills {
+  position: relative;
+  font-family: Page-default-font;
+  font-size: 2rem;
+}
+
 /*4K and more */
 
 @media (2560px < width) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 50px;
     height: 65vh;
@@ -17,8 +26,6 @@
   }
 
   .human {
-    position: absolute;
-    right: 0;
     height: 65vh;
     width: 65vh;
   }
@@ -27,10 +34,6 @@
 /* L-laptops */
 
 @media (1440px < width <= 2561px) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 50px;
     height: 65vh;
@@ -38,8 +41,6 @@
   }
 
   .human {
-    position: absolute;
-    right: 0;
     height: 65vh;
     width: 65vh;
   }
@@ -48,10 +49,6 @@
 /* Large Laptop */
 
 @media (1024px< width <=1441px) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 50px;
     height: 65vh;
@@ -59,8 +56,6 @@
   }
 
   .human {
-    position: absolute;
-    right: 0;
     height: 65vh;
     width: 65vh;
   }
@@ -69,10 +64,6 @@
 /* Laptop */
 
 @media (768px< width <=1025px) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 50px;
     height: 40vh;
@@ -80,8 +71,6 @@
   }
 
   .human {
-    position: absolute;
-    right: 0;
     height: 40vh;
     width: 40vh;
   }
@@ -90,10 +79,6 @@
 /* Tablet */
 
 @media (425px < width <=769px) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 50px;
     height: 38vh;
@@ -101,8 +86,6 @@
   }
 
   .human {
-    position: absolute;
-    right: 0;
     height: 38vh;
     width: 38vh;
   }
@@ -111,10 +94,6 @@
 /* Phones */
 
 @media (0px<= width <= 426px) {
-  .Skills {
-    position: relative;
-    font-family: Page-default-font;
-  }
   .gun-image {
     border-radius: 10px;
     height: 18vh;
@@ -122,9 +101,6 @@
   }
 
   .human {
-    position: absolute;
-    z-index: 0;
-    right: 0;
     height: 18vh;
     width: 18vh;
   }
